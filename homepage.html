@@ -4,30 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./homepage.css"> 
+  <link href="//db.onlinewebfonts.com/c/03d44a9a83b9f8a39806dac12ec6d615?family=Graphik+Web+Bold" rel="stylesheet" type="text/css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/072f7a3417.js" crossorigin="anonymous"></script>
   <title>Homepage</title>
 </head>
 <body>
+  <div id="header-div">
   <header id="nav-bar">
-    <form>
-      <input type="text" placeholder="Search for anything">
-    </form>
-    <button id="sign-in">Sign in</button>
-    <img src="https://img.icons8.com/ios/50/000000/wicker-basket.png" id="basket"/>
+    <div id="etsy-logo"><img src="./etsy.svg" alt="logo">
+    </div>
+      <div class="input-group mb-3" id="search-bar">
+        <input type="text" class="form-control" id="search-input" placeholder="Search for anything">
+        <button type="button" id="search"><i class="fa fa-search"></i></button>
+
+        
+      </div>
+      <button id="sign-in">Sign in</button>
+    <img src="https://img.icons8.com/ios/30/000000/wicker-basket.png" id="basket"/>
+  </div>
+    
+  
+
+  </header>
+</div> 
+  <div id = content>
     <div id="category-links">
       <ul>
-        <li>Jewellery & Accessories</li>
-        <li>Clothing & Shoes</li>
-        <li>Home & Living</li>
-        <li>Wedding & Party</li>
-        <li>Toys & Entertainment</li>
-        <li>Art & Collectibles</li>
-        <li>Craft Supplies & Tools</li>
-        <li>Vintage</li>
+        <li><a href= "/">Jewellery & Accessories</a></li>
+        <li><a href= "/">Clothing & Shoes</a></li>
+        <li><a href= "/">Home & Living</a></li>
+        <li><a href= "/">Wedding & Party</a></li>
+        <li><a href= "/">Toys & Entertainment</a></li>
+        <li><a href= "/">Art & Collectibles</a></li>
+        <li><a href= "/">Craft Supplies & Tools</a></li>
+        <li><a href= "/">Vintage</a></li>
       </ul>
 
     </div>
-
-  </header>
-  
+   <section id="top-bar">
+    <h1>Here's to the new year!  Discover one-of-a-kind finds made with meaning.</h1>
+    <div id="shopping-links">
+      <h2>Shop everyday delights</h2>
+      <ul id="shopping-images">
+        <li><a href= "/"><img src="https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="storage">Storage & organisation</a></li>
+        <li><a href= "/"><img src="https://images.pexels.com/photos/811572/pexels-photo-811572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="planners">New year planners</a></li>
+        <li><a href= "/"><img src="https://images.pexels.com/photos/3616232/pexels-photo-3616232.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bedding">Bedding</a></li>
+        <li><a href= "/"><img src="https://images.pexels.com/photos/688961/pexels-photo-688961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="pet-supplies">Pet supplies</a></li>
+        <li><a href= "/"><img src="https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="decor">Inspirational decor</a></li>
+        <li><a href= "/"><img src="https://images.pexels.com/photos/264771/pexels-photo-264771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="gifts">Personalised gifts</a></li>
+      </ul>
+    </div>
+  </section> 
+</div>
 </body>
 </html>
