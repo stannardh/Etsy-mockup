@@ -27,6 +27,7 @@
   border-top: rgba(34, 34, 34, 0.15) solid 1px;
   background-color: #fdebd2;
   display: block;
+  margin-bottom: 18px;
 }
 #header-div {
   width: 100%;
@@ -136,9 +137,9 @@ header {
   font-family: serif;
 }
 
-h1 {
-  font-family: Graphik Web;
-  font-size: 32px;
+#top-bar h1 {
+  font-family: sans-serif;
+  font-size: 30px;
   font-weight: 300;
   display: block;
   text-align: center;
@@ -146,8 +147,8 @@ h1 {
   padding-top: 30px;
 }
 
-h2 {
-  font-family: Graphik;
+#shopping-links h2 {
+  font-family: sans-serif;
   font-size: 20px;
   display: block;
   text-align: center;
@@ -194,4 +195,50 @@ h2 {
 
 li {
   list-style-type: none;
+}
+
+#suggestions {
+  margin-left: 59px;
+  margin-right: 59px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+#suggestion-buttons {
+  padding-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 0;
+  justify-content: space-evenly;
+}
+
+#suggestion-buttons button {
+  font-family: sans-serif;
+  border-radius: 24px;
+  display: flex;
+  background-color: rgba(34, 34, 34, 0.075);
+  cursor: pointer;
+  text-align: center;
+  padding-top: 12px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 12px;
+  border: none;
+  font-size: 18px;
+}
+
+#suggestions h2 {
+  font-size: 20px;
+  font-family: sans-serif;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+#suggestions p {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-bottom: 0;
 }
