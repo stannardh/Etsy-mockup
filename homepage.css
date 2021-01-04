@@ -198,8 +198,8 @@ li {
 }
 
 #suggestions {
-  margin-left: 59px;
-  margin-right: 59px;
+  margin-left: 60px;
+  margin-right: 60px;
   padding-left: 18px;
   padding-right: 18px;
 }
@@ -241,4 +241,91 @@ li {
   font-family: sans-serif;
   font-size: 13px;
   margin-bottom: 0;
+}
+
+#more-from {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 15px;
+}
+
+#more-from h2 {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+#more-from span {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+}
+
+#more-from-images {
+  display: block;
+  padding-left: 0;
+}
+
+#more-from img {
+  padding: 9px;
+  border-radius: 5px;
+}
+
+#more-from li {
+  display: inline-block;
+  text-align: left;
+}
+
+.price {
+  align-items: center;
+  text-align: left;
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#badge {
+  background-color: #d4e9d7;
+  border-radius: 24px;
+  margin-left: 5px !important;
+}
+
+#popular {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 15px;
+}
+
+#popular h2 {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+#popular-images {
+  display: block;
+  padding-left: 0;
+}
+
+#popular-images img {
+  padding: 9px;
+  border-radius: 5px;
+}
+
+#popular-images li {
+  display: inline-block;
+  text-align: left;
 }
