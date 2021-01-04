@@ -14,7 +14,9 @@
     url("//db.onlinewebfonts.com/t/03d44a9a83b9f8a39806dac12ec6d615.svg#Graphik Web Bold")
       format("svg");
 }
-
+* {
+  box-sizing: border-box;
+}
 #etsy-logo img {
   width: 80px;
   height: 40px;
@@ -22,22 +24,20 @@
 }
 
 #top-bar {
+  border-top: rgba(34, 34, 34, 0.15) solid 1px;
   background-color: #fdebd2;
   display: block;
 }
 #header-div {
   width: 100%;
   background-origin: border-box;
-  box-sizing: border-box;
   display: block;
   text-align: left;
 }
 
 header {
-  border-bottom: rgba(34, 34, 34, 0.15) solid 1px;
   display: flex;
   align-items: center;
-  box-sizing: border-box;
   justify-content: space-between;
   line-height: 19px;
   margin-left: 50px;
@@ -49,7 +49,6 @@ header {
 #search-bar {
   width: 1100px;
   align-items: center;
-  box-sizing: border-box;
   display: flex;
   position: relative;
 }
@@ -103,7 +102,6 @@ header {
   font-size: 15px;
   font-weight: 600;
   align-items: flex-start;
-  box-sizing: border-box;
   display: inline-block;
   padding-top: 9px;
   padding-bottom: 20px;
@@ -116,22 +114,82 @@ header {
   padding-bottom: 30px;
 }
 
+#shopping-cats {
+  display: block;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#category-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#category-links a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  font-family: serif;
+}
+
 h1 {
   font-family: Graphik Web;
   font-size: 32px;
   font-weight: 300;
+  display: block;
+  text-align: center;
+  padding: 12px;
+  padding-top: 30px;
 }
 
 h2 {
   font-family: Graphik;
   font-size: 20px;
-  font-weight: 500;
+  display: block;
+  text-align: center;
+  padding-bottom: 12px;
 }
 
-#shopping-images img {
+.shopping {
+  cursor: pointer;
+  display: block;
+  justify-content: center;
+}
+
+#image-grid {
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-bottom: 16px;
+  justify-content: center;
+  text-align: left;
+}
+#image-grid img {
   width: 160px;
   height: 160px;
   border-radius: 100%;
+  justify-content: center;
+  display: block;
+  flex-wrap: wrap;
+}
+
+.caption {
+  align-items: center;
+  text-align: center;
+}
+
+#arrow {
+  color: black;
+  margin-top: 5px;
+}
+
+#image-grid a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
 }
 
 li {
