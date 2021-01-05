@@ -437,19 +437,20 @@ li {
 
 #footer {
   width: 100%;
-  height: 605px;
+  height: 500px;
   background-color: #fdebd2;
 }
 
 #center-footer-text {
   text-align: center;
   padding: 50px;
+  padding-bottom: 30px;
 }
 
 #center-footer-text h2 {
   font-family: serif;
   font-size: 44px;
-  font-weight: 300;
+  font-weight: 200;
   margin-bottom: 0;
 }
 
@@ -457,4 +458,64 @@ li {
   color: black;
   font-size: 14px;
   cursor: pointer;
+}
+
+#about-etsy {
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-left: 116px;
+  margin-right: 116px;
+  text-align: center;
+  font-family: serif;
+}
+
+#about-etsy h3 {
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.col-4 {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+#question {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#question h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#question button {
+  background-color: #fdebd2;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 24px;
+  border: black solid 2px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#subscription {
+  background-color: #d7e6f5;
+  width: 100%;
+  height: 140px;
+}
+
+#footer-nav {
+  background-color: #2f466c;
+  width: 100%;
+  height: 250px;
+}
+
+#footer-legal {
+  background-color: #232347;
+  width: 100%;
+  height: 38px;
 }
