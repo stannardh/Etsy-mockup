@@ -278,6 +278,7 @@ li {
 #more-from img {
   padding: 9px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #more-from li {
@@ -325,6 +326,7 @@ li {
 #popular-images img {
   padding: 9px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #popular-images li {
@@ -337,6 +339,7 @@ li {
   text-align: left;
   margin-left: 10px;
   font-family: sans-serif;
+  cursor: pointer;
 }
 
 .checked {
@@ -355,19 +358,79 @@ li {
   font-size: 14px;
   font-family: sans-serif;
   color: black;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #shop {
   font-size: 12px;
   font-family: sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #ratings {
   font-size: 12px;
   color: rgb(202, 196, 196);
+  margin-top: 0;
 }
 
 #number-ratings {
   color: rgb(89, 89, 89);
   font-size: 13px;
+}
+
+#original-price {
+  font-size: 13px;
+  color: rgb(5, 129, 5);
+  text-decoration: line-through;
+}
+
+#discount {
+  font-size: 12px;
+  color: rgb(5, 129, 5);
+}
+#selections {
+  display: block;
+  margin-left: 58px;
+  margin-right: 58px;
+  padding-left: 18px;
+  padding-right: 18px;
+  justify-content: center;
+}
+
+#selections h3 {
+  font-size: 17px;
+  margin-top: 40px;
+  display: inline-block;
+}
+#selections span {
+  font-size: 14px;
+  display: inline;
+  margin-left: 10px;
+}
+#selections ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.card {
+  width: fit-content;
+  border-radius: 15px !important;
+}
+
+.card img {
+  width: 200px;
+  height: 195px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-text {
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+  font-family: sans-serif;
+  padding-bottom: 10px;
 }
