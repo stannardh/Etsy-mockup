@@ -18,9 +18,11 @@
   box-sizing: border-box;
 }
 #etsy-logo img {
-  width: 80px;
+  width: 70px;
   height: 40px;
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-left: 40px;
+  cursor: pointer;
 }
 
 #top-bar {
@@ -40,18 +42,19 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  line-height: 19px;
-  margin-left: 50px;
-  margin-right: 59px;
+  line-height: 15px;
+  margin-left: 65px;
+  margin-right: 65px;
   padding: 12px 36px 12px 36px;
   text-align: left;
 }
 
 #search-bar {
-  width: 1100px;
+  width: 1000px;
   align-items: center;
   display: flex;
   position: relative;
+  border: rgba(34, 34, 34, 0.15) solid 1px;
 }
 
 #search-input {
@@ -95,24 +98,40 @@ header {
   padding-right: 20px;
 }
 
+#search:hover {
+  background-color: rgb(214, 212, 212);
+}
+
 #sign-in {
   background-color: white;
   border: none;
   cursor: pointer;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   align-items: flex-start;
   display: inline-block;
   padding-top: 9px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: 15px;
+}
+
+#sign-in:hover {
+  background-color: #efefef;
+  border-radius: 25px;
 }
 
 #basket {
   padding: 12px;
-  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+
+#basket:hover {
+  background-color: #efefef;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
 #shopping-cats {
@@ -131,10 +150,10 @@ header {
 }
 
 #category-links a {
-  font-size: 14px;
+  font-size: 13px;
   text-decoration: none;
   color: black;
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 #top-bar h1 {
@@ -260,6 +279,11 @@ li {
   margin-bottom: 0;
 }
 
+#more-from h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 #more-from span {
   display: inline-block;
   font-family: sans-serif;
@@ -268,6 +292,11 @@ li {
   text-decoration: none;
   color: black;
   margin-left: 15px;
+}
+
+#more-from span:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 #more-from-images {
@@ -292,6 +321,7 @@ li {
   margin-left: 10px;
   font-weight: bold;
   font-family: sans-serif;
+  cursor: pointer;
 }
 
 #delivery {
@@ -435,6 +465,11 @@ li {
   padding-bottom: 10px;
 }
 
+.card:hover {
+  cursor: pointer;
+  box-shadow: #efefef 10px 10px 10px;
+}
+
 #footer {
   width: 100%;
   height: 500px;
@@ -459,6 +494,10 @@ li {
   color: black;
   font-size: 14px;
   cursor: pointer;
+}
+
+#center-footer-text a:hover {
+  color: rgb(143, 148, 153);
 }
 
 #about-etsy {
@@ -501,6 +540,10 @@ li {
   border: black solid 2px;
   cursor: pointer;
   font-size: 15px;
+}
+
+#subscribe-button:hover {
+  background-color: #efefef;
 }
 
 #subscription {
@@ -551,14 +594,139 @@ li {
   border-left: none;
 }
 
+#max-width-footer {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
 #footer-nav {
   background-color: #2f466c;
   width: 100%;
-  height: 250px;
+  height: 310px;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 36px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  text-align: left;
 }
 
-#footer-legal {
+#footer-nav h3 {
+  font-size: 16px;
+}
+
+#footer-nav ul {
+  padding-left: 0;
+  font-size: 13px;
+}
+
+#footer-nav li {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#footer-nav li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#icons {
+  font-size: 22px !important;
+  display: block;
+}
+
+#icons li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 15px;
+}
+
+#symbols button {
+  background-color: #2f466c;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  border: white solid 2px;
+  border-radius: 24px;
+}
+
+#icons li:hover {
+  background-color: rgb(62, 94, 146);
+  border-radius: 100px;
+}
+#etsy-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 9px;
+  margin-right: 10px;
+}
+
+#footer-tagline {
   background-color: #232347;
-  width: 100%;
-  height: 38px;
+  width: 100% !important;
+  height: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#footer-max-width {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+#footer-tagline button {
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #232347;
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  word-spacing: 5px;
+}
+#legal {
+  display: block;
+  text-align: right;
+}
+#legal li {
+  color: white;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+#legal .underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#currency {
+  padding: 10px !important;
+}
+
+#currency:hover {
+  background-color: #2f2f5e;
+  border-radius: 24px;
 }
